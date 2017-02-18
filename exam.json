@@ -1,0 +1,44 @@
+{
+
+	"applicationName": "caremerge-­‐abc",
+	"instanceHost":	"192.168.0.1",
+	"process":
+  		{
+		"memoryUsage":
+  			{
+			"rss":	934363136,
+  			"heapTotal": 834034016,
+			"heapUsed": 775818200
+			},
+
+		"uptime":
+  			{
+			"hours": 23,
+			"minutes": 19,
+			"seconds": 37,
+			"formated": "23h 19m 37s"
+			}
+		},
+
+	"mysql":
+		{
+		"healthStatus":	"Passed",
+		"severity": "CRITICAL"
+		},
+	"redis":
+		{
+		"healthStatus":	"Failed",
+		"severity": "CRITICAL"
+		},
+	"twilio":
+		{
+		"healthStatus": "Failed",
+		"severity": "NON---CRITICAL"
+		},
+ 	"build":
+  		{
+		"number": "1.0.19",
+		"name": "5"
+		},
+	"responseTime": "0.508925 ms"
+}
